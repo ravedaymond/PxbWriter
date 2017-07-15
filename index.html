@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Pixel Blue Writer</title>
+        
+        <!-- -------------------------
+        Stylesheets -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body>
+        <p>
+          <span id="write-mark"></span><span id="write"></span><span id="write-cursor"></span>
+        </p>
+        <p>
+          <span id="both-mark"></span><span id="both"></span><span id="both-cursor"></span>
+        </p>
+        <p>
+          <span id="erase-mark"></span><span id="erase"></span><span id="erase-cursor"></span>
+        </p>
+        <p>
+            &gt;&gt; <a href="">[Re-Run]</a> &lt;&lt;
+        </p>
+        <p id="version">v0.2</p>
+        
+        <!-- -------------------------
+        Scripts -->
+        <script src="jquery-3.2.1-uncompressed.js"></script>
+<!--        <script src="script.js"></script>-->
+        <script src="writer.js"></script>
+    </body>
+</html>
+
+
+
+<!--
+VERSION HISTORY
+****************
+****************
+07.14.17 v0.4 - Created Writer Object
+//Additions//
+-Writer Object Creation
+-Write Message
+-Erase Message
+-Write & Erase Message
+-Added functions for changing parameters on the fly
+//Revisions//
+-Updated comments for re-used functions
+-Re-organized code for new Object
+****************
+v0.2 - Revised JavaScript Comments
+//Additions//
+-Added function to set Cursor
+-Added functions to set Mark
+//Revisions//
+-Updated all comments to JSDoc notation
+-Re-organized functions below executing js
+****************
+v0.1 - Initial Pen Creation
+//Additions//
+-Animated Cursor
+-Customizable Cursor (w/ charset)
+-Customizable Mark (w/ charset)
+-Typewriter Effect Message
+-Typewriter Effect Erase
+-Speed/Delay Control
+//Revisions//
+****************
+-->
