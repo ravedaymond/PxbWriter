@@ -99,40 +99,51 @@ targetWriter.setMark(">");
 
 
 ## Version History
+#### 07.17.17 14:13 v0.5
+Additions
+- Added demo.js file - executing JS from [CodePen](https://codepen.io/pxlblue/pen/WOmddR)
+
+Revisions
+- Updated README.md
+---
 #### 07.17.17 10:20 v0.4
 Additions
-    >Added Endless-Loop option
-    >Created README.md documentation
+- Added Endless-Loop option
+- Created README.md documentation
+
 Revisions
-    >Updated JSDoc notation
-    >Re-organized code
+- Updated JSDoc notation
+- Re-organized code
 ---
 #### 07.14.17 22:35 v0.3
 Additions
-    >Writer Object Creation
-    >Write message(s)
-    >Erase message(s)
-    >Auto-Erase message(s)
-    >Added functions for changing parameters to created Writers
-    >Added Re-Run button
+- Writer Object Creation
+- Write message(s)
+- Erase message(s)
+- Auto-Erase message(s)
+- Added functions for changing parameters to created Writers
+- Added Re-Run button
+
 Revisions
-    >Updated comments for re-used functions
-    >Re-organized code for new Object
+- Updated comments for re-used functions
+- Re-organized code for new Object
 ---
 #### 07.14.17 17:32 v0.2
 Additions
-    >Added function to set Cursor
-    >Added functions to set Mark
+- Added function to set Cursor
+- Added functions to set Mark
+
 Revisions
-    >Updated all comments to JSDoc notation
-    >Re-organized function below executing js
+- Updated all comments to JSDoc notation
+- Re-organized function below executing js
 ---
 #### 07.14.17 13:17 v0.1
 Additions
-    >Animated Cursor
-    >Customizable Cursor (w/ charset)
-    >Customizable Mark (w/ charset)
-    >Typewriter Effect Message
-    >Typewriter Effect Erase
-    >Speed/Delay Control
+- Animated Cursor
+- Customizable Cursor (w/ charset)
+- Customizable Mark (w/ charset)
+- Typewriter Effect Message
+- Typewriter Effect Erase
+- Speed/Delay Control
+
 Revisions
