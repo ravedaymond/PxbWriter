@@ -2,13 +2,17 @@
 <html>
     <head>
         <title>Pixel Blue Writer</title>
-        
-        <!-- -------------------------
-        Stylesheets -->
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     
+    
+    
     <body>
+        <!-- Writer objects use <span> elements to actively write/erase certain text. There are 3 different span types for a Writer object, and are used in the following order in HTML:
+            <span id="target-mark"></span>      -- The side "terminal-like" mark <span> for the writer. Can be assigned any character.
+            <span id="target"></span>           -- The target <span> for the writer being actively written to / erased from.
+            <span id="target-cursor"></span>    -- The cursor <span> for the writer. Can be assigned any character.
+        -->
         <p>
           <span id="write-mark"></span><span id="write"></span><span id="write-cursor"></span>
         </p>
@@ -19,14 +23,15 @@
           <span id="erase-mark"></span><span id="erase"></span><span id="erase-cursor"></span>
         </p>
         <p>
+            <span id="repeat-mark"></span><span id="repeat"></span><span id="repeat-cursor"></span>
+        </p>        
+        
+        <!-- Re-Run button, Version Mark -->
+        <p>
             &gt;&gt; <a href="">[Re-Run]</a> &lt;&lt;
         </p>
-        <p id="version">v0.2</p>
-        
-        <!-- -------------------------
-        Scripts -->
+        <p id="version">v0.4</p>
         <script src="jquery-3.2.1-uncompressed.js"></script>
-<!--        <script src="script.js"></script>-->
         <script src="writer.js"></script>
     </body>
 </html>
@@ -37,33 +42,42 @@
 VERSION HISTORY
 ****************
 ****************
-07.14.17 v0.4 - Created Writer Object
+07.17.17 10:20 v0.4 - Feature Addition
 //Additions//
--Writer Object Creation
--Write Message
--Erase Message
--Write & Erase Message
--Added functions for changing parameters on the fly
+    - Added Endless Loop option.
+    - Added HTML documentation for use of <span> elements.
 //Revisions//
--Updated comments for re-used functions
--Re-organized code for new Object
+    -Updated JS documentation
+    -Re-organized code
 ****************
-v0.2 - Revised JavaScript Comments
+07.14.17 22:35 v0.3 - Created Writer Object
 //Additions//
--Added function to set Cursor
--Added functions to set Mark
+    -Writer Object Creation
+    -Write Message
+    -Erase Message
+    -Write & Erase Message
+    -Added functions for changing parameters to created Writers
+    -Added Re-Run button
 //Revisions//
--Updated all comments to JSDoc notation
--Re-organized functions below executing js
+    -Updated comments for re-used functions
+    -Re-organized code for new Object
 ****************
-v0.1 - Initial Pen Creation
+07.14.17 17:32 v0.2 - Revised JavaScript Comments
 //Additions//
--Animated Cursor
--Customizable Cursor (w/ charset)
--Customizable Mark (w/ charset)
--Typewriter Effect Message
--Typewriter Effect Erase
--Speed/Delay Control
+    -Added function to set Cursor
+    -Added functions to set Mark
+//Revisions//
+    -Updated all comments to JSDoc notation
+    -Re-organized function below executing js
+****************
+07.14.17 13:17 v0.1 - Initial Pen Creation
+//Additions//
+    -Animated Cursor
+    -Customizable Cursor (w/ charset)
+    -Customizable Mark (w/ charset)
+    -Typewriter Effect Message
+    -Typewriter Effect Erase
+    -Speed/Delay Control
 //Revisions//
 ****************
 -->
