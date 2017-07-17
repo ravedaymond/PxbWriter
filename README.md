@@ -131,7 +131,7 @@ Revisions
 #### 07.14.17 17:32 v0.2
 Additions
 - Added function to set Cursor
-- Added functions to set Mark
+- Added function to set Mark
 
 Revisions
 - Updated all comments to JSDoc notation
