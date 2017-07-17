@@ -50,7 +50,7 @@ Lastly, you'll need to call the pxbWriter.js file from the `<body>` element in y
 ### JavaScript Setup
 All documentation is available in the pxbWriter.js in JSDoc notation.
 
-To start using the Writer, you first need to create a new Writer object. If you are choosing to not use certain HTML elements, substitute `$("")` for any elements not being used.
+To start using the Writer, you first need to create a new Writer object. If you are choosing to not use certain `<html>` elements, substitute `$("")` for any elements not being used.
 ```JavaScript
 var targetWriter = new Writer($("#target"), $("#target-cursor"), $("#target-mark"), 400, false, false, 0);
 ```
