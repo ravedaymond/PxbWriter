@@ -23,7 +23,7 @@ For a live demo, view on [CodePen](https://codepen.io/pxlblue/full/WOmddR).
 - [x] Terminal Mark...? The thing on the left.
 
 ## How-To Use
-Writer.js uses a combination of HTML elements and JavaScript (using jQuery).
+pxbWriter.js uses a combination of HTML elements and JavaScript (using jQuery).
 
 ### HTML Setup
 The `<html>` uses `<span>` elements to manage the individual Writer sections; **Target**, **Cursor**, and **Mark**. If you don't want to use a certain section, just leave it out of your `<html>`.
