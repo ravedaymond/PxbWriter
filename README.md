@@ -1,5 +1,5 @@
 # Pixel Blue Writer
-_Typewriter styled text animation for any webpage using HTML5, CSS3, JavaScript, and jQuery._
+_Typewriter styled text animations for any webpage using HTML5, CSS3, JavaScript, and jQuery._
 
 ## About
 Initially this script was created to animate certain webpage text with a typewriter styled effect for my personal website. Since then, I've wanted to update it with more additional features and animations. Also been working on making it easy to plug-n-play for anyone else looking for a similair script. All functions are documented with JSDoc notation. 
