@@ -32,7 +32,7 @@ The `<html>` uses `<span>` elements to manage the individual Writer sections; **
 <span id="target-mark"></span><span id="target"></span><span id="target-cursor"></span>
 ```
 
-Lastly, you'll need to call the pxbWriter.js file from the `<body>` element in your`<html>` file using the Writer. Make sure to call your local jQuery file as well, placing it above your Writer call.
+Next you'll need to call the pxbWriter.js file from the `<body>` element in your`<html>` file using the Writer. Make sure to call your local jQuery file as well, placing it above your Writer call.
 ```HTML
 <html>
     <body>
