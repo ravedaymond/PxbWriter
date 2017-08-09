@@ -7,6 +7,7 @@ Initially this script was created to animate certain webpage text with a typewri
 For a live demo, view on [CodePen](https://codepen.io/pxlblue/full/WOmddR).
 
 ## v1.0 Progress
+- [ ] Visual Writer Creation Tool
 - [x] Write/Erase
     - [x] Write un-written messages
     - [x] Erase pre-written messages
