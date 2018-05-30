@@ -1,5 +1,5 @@
 # Pixel Blue Writer
-*Typewriter styled text animations for any webpage using HTML5, JavaScript, and GSAP TweenLite.*
+*Typewriter styled text animations for any webpage using HTML5, JavaScript utilizing GSAP TweenLite.*
 
 [TOC]
 ## About
@@ -14,7 +14,7 @@ All functions are documented with JSDoc notation.
 [^note]: The PxbWriter Creation Tool is currently under development. It will be available at the concurrent link once completed, and the strikethrough will be removed from this documentation.
 
 ## How-To Use
-To use this library you must use a combination of HTML elements and JavaScript (using [GSAP TweenLite](https://greensock.com/tweenlite)).
+To use this library you must use a combination of HTML elements and JavaScript utilizing [GSAP TweenLite](https://greensock.com/tweenlite).
 
 This How-To will be going over very basic usage of the PxbWriter library. At the end of this How-To, we will have created a Writer object that writes "Hello World!".
 
