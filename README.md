@@ -60,7 +60,7 @@ var writer = builder.build();
 writer.write(0);
 ```
 
-![readme_write](C:\Users\daver\OneDrive\Documents\GitHub\PxbWriter\readme_write.gif)
+![readme_write](readme_write.gif)
 
 Alternatively, we can also erase our message starting from its end. However, to do so we'll need to point at the last character in the message (String index of the message length - 1). We can use the `.getLength()` function for this. This will erase the message "Hello World!".
 
@@ -68,7 +68,7 @@ Alternatively, we can also erase our message starting from its end. However, to 
 writer.erase(writer.getLength());
 ```
 
-![readme_erase](C:\Users\daver\OneDrive\Documents\GitHub\PxbWriter\readme_erase.gif)
+![readme_erase](readme_erase.gif)
 
 And that's it! You've created a PxbWriter object and written (or erased) your first message.
 
