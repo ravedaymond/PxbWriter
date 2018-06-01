@@ -1,7 +1,6 @@
 # Pixel Blue Writer
 *Typewriter styled text animations for any webpage using HTML5, JavaScript utilizing GSAP TweenLite.*
 
-[TOC]
 ## About
 This library was created to animate webpage text with a typewriter styled effect. Since then, plans have been made to update it with additional features and possibly typing styles. I've also been working on making it more available to anyone else with ease of plug-n-play.
 
@@ -11,14 +10,14 @@ This is the first "release" of any code-base that I have created myself. Constru
 
 All functions are documented with JSDoc notation.
 
-[^note]: The PxbWriter Creation Tool is currently under development. It will be available at the concurrent link once completed, and the strikethrough will be removed from this documentation.
+> The PxbWriter Creation Tool is currently under development. It will be available at the concurrent link once completed, and the strikethrough will be removed from this documentation.
 
 ## How-To Use
 To use this library you must use a combination of HTML elements and JavaScript utilizing [GSAP TweenLite](https://greensock.com/tweenlite).
 
 This How-To will be going over very basic usage of the PxbWriter library. At the end of this How-To, we will have created a Writer object that writes "Hello World!".
 
-[^note]: Full tutorial documentation is planned, however it is not on my project stack at this moment.
+> Full tutorial documentation is planned, however it is not on my project stack at this moment.
 
 ### HTML Setup
 On your desired webpages `<html>`, you will be required to use three elements to manage the sections of the writer; **Target**, **Cursor**, and **Mark**. If you don't want to use a certain section, just leave the corresponding element out of your `<html>`. However, the **Target** section is required at all times as it holds the message that the PxbWriter will be affecting.
@@ -27,7 +26,7 @@ On your desired webpages `<html>`, you will be required to use three elements to
 <span id="target-mark"></span><span id="target">Hello World!</span><span id="target-cursor"></span>
 ```
 
-[^note]: The above example does not set any character or symbol for the Cursor or Mark sections being used. It also uses `<span>` elements. This is recommended for consistency, but this library should work with any three `<html>` elements.
+> The above example does not set any character or symbol for the Cursor or Mark sections being used. It also uses `<span>` elements. This is recommended for consistency, but this library should work with any three `<html>` elements.
 
 For both the **Cursor** and **Mark** elements, ensure that they have the same ID as the **Target** element, with the addition of `-cursor` or `-mark` respectively.
 
@@ -41,7 +40,7 @@ Next you'll need to reference PxbWriter.js from the `<body>` element in your web
 <script src="PxbWriter.js"></script>
 ```
 
-[^note]: The above external `<script>` call for PxbWriter.js is assuming that you have the file stored in the same directory as the webpage using it.
+> The above external `<script>` call for PxbWriter.js is assuming that you have the file stored in the same directory as the webpage using it.
 
 ### JavaScript Setup
 Now that you have the necessary `<html>` elements and `<script>` calls in your webpage, you will need to create a new Builder object. The Builder controls all features and functions of your end Writer. 
@@ -50,7 +49,7 @@ Now that you have the necessary `<html>` elements and `<script>` calls in your w
 var builder = new PxbWriterBuilder("target", .15);
 ```
 
-[^note]: There are a number of other functionalities to the PxbWriterBuilder class however, as stated earlier, this How-To will not be covering any feature but writing a given message.
+> There are a number of other functionalities to the PxbWriterBuilder class however, as stated earlier, this How-To will not be covering any feature but writing a given message.
 
 The above will create a new Builder that will assign `<span id="target">` element that we created to be the message holder of the writer. It will also make the speed at which each character is typed 0.15 seconds. 
 
@@ -61,7 +60,7 @@ var writer = builder.build();
 writer.write(0);
 ```
 
-![](C:\Users\daver\Desktop\write.gif)
+![readme_write](C:\Users\daver\OneDrive\Documents\GitHub\PxbWriter\readme_write.gif)
 
 Alternatively, we can also erase our message starting from its end. However, to do so we'll need to point at the last character in the message (String index of the message length - 1). We can use the `.getLength()` function for this. This will erase the message "Hello World!".
 
@@ -69,7 +68,7 @@ Alternatively, we can also erase our message starting from its end. However, to 
 writer.erase(writer.getLength());
 ```
 
-![](C:\Users\daver\Desktop\erase.gif)
+![readme_erase](C:\Users\daver\OneDrive\Documents\GitHub\PxbWriter\readme_erase.gif)
 
 And that's it! You've created a PxbWriter object and written (or erased) your first message.
 
